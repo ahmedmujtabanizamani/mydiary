@@ -14,7 +14,7 @@ This premium will discard the Worked hours inside the first 8-minute Handover wi
 ## Technical Perspective.
 - Type : **recursive Premium.**
 - Context : **Slice**
-
+<!--more-->
 ## Replace Paycode Map formula
 ### Index#1
 - Paycode : `REG`
