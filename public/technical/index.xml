@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical on My Diary</title>
-    <link>//localhost:1313/technical/</link>
+    <link>192.168.0.156/technical/</link>
     <description>Recent content in Technical on My Diary</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Aug 2024 01:16:49 +0500</lastBuildDate>
-    <atom:link href="//localhost:1313/technical/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="192.168.0.156/technical/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NightShift Employee worked Dayshift</title>
-      <link>//localhost:1313/technical/work/wfs/ta/nightshift-employee-worked-dayshift/</link>
+      <link>192.168.0.156/technical/work/wfs/ta/nightshift-employee-worked-dayshift/</link>
       <pubDate>Mon, 19 Aug 2024 01:16:49 +0500</pubDate>
-      <guid>//localhost:1313/technical/work/wfs/ta/nightshift-employee-worked-dayshift/</guid>
+      <guid>192.168.0.156/technical/work/wfs/ta/nightshift-employee-worked-dayshift/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;When Night Shift Employee Try to work in Dayshift Hours this exception will trigger and alert manager about the extra Hours workings.&lt;/p&gt;&#xA;&lt;h2 id=&#34;formula-used&#34;&gt;Formula Used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;sumTime&lt;/li&gt;&#xA;&lt;li&gt;Crossing Midnight&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
