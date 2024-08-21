@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range (.Paginate .Pages 2).Pages }}
+    <h1 class="summary-heading-in-category"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="summary">
+      {{ .Summary }}
+      </div>
+    <div style="float:right; font-size:small">
+      <a class="link" href="{{ .RelPermalink }}">Read More…</a>
+    </div>
+  {{ end }}
+  <nav class="pagination">
+    {{ template "_internal/pagination.html" (dict "page" . "format" "terse") }}
+  </nav>
+{{ end }}

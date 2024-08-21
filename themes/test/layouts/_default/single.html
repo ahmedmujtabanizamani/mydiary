@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <h1 class="main-heading">{{ .Title }}</h1>
+  {{ if in .TableOfContents "li" }}
+  <p class="table-of-content-heading">Table of Contents</p>
+  {{ .TableOfContents }}
+  {{ end }}
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  {{ .Content }}
+  <div class="tags">
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </div>
+
+<div class="paginateSec">
+  {{ with .NextInSection }}
+  <a id="prevSec" href="{{ .RelPermalink }}">Prev</a>
+{{ end }}
+
+{{ with .PrevInSection }}
+  <a id="nextSec" href="{{ .RelPermalink }}">Next</a>
+{{ end }}
+</div>
+
+
+  
+{{ end }}

@@ -1,0 +1,32 @@
+baseURL = '192.168.0.156'
+languageCode = 'en-us'
+title = 'My Diary'
+theme = 'test'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'vs'
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[pagination]
+  disableAliases = true
+  pagerSize = 0
+  path = 'page'
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
