@@ -234,7 +234,8 @@ img{
 
 @font-face {
   font-family: 'Sindhi-Founts';
-  src: url('/assets/fonts/Sarem-Waris-Ghaffoor-2.1-Bold.ttf');
+  src: url('/assets/fonts/Sarem-Waris-Ghaffoor-2.1-Bold.ttf'),
+  url('/mydiary/assets/fonts/Sarem-Waris-Ghaffoor-2.1-Bold.ttf');
 }
 .ar-para{
   direction: rtl;
@@ -242,7 +243,7 @@ img{
   font-size: 1.5rem;
   line-height: 3.2rem;
   word-spacing: 0.15rem;
-  background-color: rgba(190, 255, 255, 0.833) !important;
+  background-color: rgba(190, 255, 255, 0.833);
   display: block;
   border:#81f2f2 2px solid;
   border-radius: 1rem;
