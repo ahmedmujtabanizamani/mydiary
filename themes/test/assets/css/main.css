@@ -236,6 +236,17 @@ img{
   font-family: 'Sindhi-Founts';
   src: url('/assets/fonts/Sarem-Waris-Ghaffoor-2.1-Bold.ttf'),
   url('/mydiary/assets/fonts/Sarem-Waris-Ghaffoor-2.1-Bold.ttf');
+
+}
+.ar-para[title]::before{
+  content: attr(title);
+  direction: rtl;
+  display: block;
+  font-size: 2rem;
+  background-color: rgba(185, 255, 255, 0.90);
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  box-shadow: #81f2f2 4px 0px 4px;
 }
 .ar-para{
   direction: rtl;
@@ -244,8 +255,18 @@ img{
   line-height: 3.2rem;
   word-spacing: 0.15rem;
   background-color: rgba(190, 255, 255, 0.833);
+  background: url('/assets/ar-bg.webp');
+  background-repeat: repeat;
+  background-size: contain;
   display: block;
-  border:#81f2f2 2px solid;
-  border-radius: 1rem;
+  border-bottom:#81f2f2 4px solid;
+  border-right:#81f2f2 4px solid;
+  border-radius: 0.5rem;
   padding: 1rem;
+}
+.ar-para p{
+  background-color: rgba(185, 255, 255, 0.90);
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  box-shadow: #81f2f2 4px 0px 4px;
 }
