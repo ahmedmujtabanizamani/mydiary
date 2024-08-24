@@ -252,7 +252,6 @@ img{
 .ar-para{
   direction: rtl;
   font-family: "Sindhi-Founts";
-  font-size: 1.5rem;
   background-color: rgba(190, 255, 255, 0.833);
   background: url('/assets/ar-bg.webp'), url('/mydiary/assets/ar-bg.webp');
   background-repeat: repeat;
@@ -263,11 +262,13 @@ img{
   border-radius: 0.5rem;
   padding: 1.5rem;
   width: fit-content;
-  max-width: 80%;
+  max-width: 100%;
   margin: 10px auto;
 }
 .ar-para pre{
+  font-size: 1.6rem;
   line-height: 2rem;
+  text-wrap: wrap;
   word-spacing: 0.15rem;
   font-family: "Sindhi-Founts";
   background-color: rgba(185, 255, 255, 0.90);
@@ -276,4 +277,15 @@ img{
   box-shadow: #81f2f2 4px 0px 4px;
   overflow: auto;
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .ar-para pre{
+    font-size: 1.45rem;
+    padding: 0.5rem;
+  }
+  .ar-para{
+    width: auto;
+    padding: 1rem 0.5rem;
+  }
 }
