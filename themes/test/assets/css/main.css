@@ -255,7 +255,7 @@ img{
   line-height: 3.2rem;
   word-spacing: 0.15rem;
   background-color: rgba(190, 255, 255, 0.833);
-  background: url('/assets/ar-bg.webp');
+  background: url('/assets/ar-bg.webp'), url('/mydiary/assets/ar-bg.webp');
   background-repeat: repeat;
   background-size: contain;
   display: block;
