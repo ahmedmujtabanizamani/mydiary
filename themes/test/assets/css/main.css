@@ -232,4 +232,19 @@ img{
   box-shadow: #2c302e 1px 1px 4px;
 }
 
-
+@font-face {
+  font-family: 'Sindhi-Founts';
+  src: url('/assets/fonts/Sarem-Waris-Ghaffoor-2.1-Bold.ttf');
+}
+.ar-para{
+  direction: rtl;
+  font-family: "Sindhi-Founts";
+  font-size: 1.5rem;
+  line-height: 3.2rem;
+  word-spacing: 0.15rem;
+  background-color: rgba(190, 255, 255, 0.833) !important;
+  display: block;
+  border:#81f2f2 2px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+}
